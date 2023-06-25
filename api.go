@@ -10,7 +10,7 @@ import (
 var activeKeys = make(map[string]bool)
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	server := "192.168.1.14"
+	server := "104.155.223.151"
 	conport := "7071"
 	username := "api"
 	password := "api"
